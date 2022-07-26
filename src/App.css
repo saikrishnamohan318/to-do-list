@@ -27,8 +27,7 @@
 }
 .todo {
     width: 60%;
-    margin: 50px auto auto auto;
-    margin-top: 50px;
+    margin: 20px auto 20px auto;
     display: flex;
 }
 .todo > span {
