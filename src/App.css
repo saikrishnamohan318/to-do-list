@@ -45,3 +45,45 @@
     width: 20px;
     height: 20px;
 }
+@media (min-width: 1024px) {
+    .todoapp {
+        width: 50%;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    .todoapp {
+        width: 60%;
+    }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+    .todoapp {
+        width: 80%;
+    }
+    .todolist > form > input {
+        padding: 5px;
+        font-size: 16px;
+    }
+    .todolist > form > button {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+}
+@media (max-width: 480px) {
+    .todoapp {
+        width: 90%;
+    }
+    .todolist > form {
+    }
+    .todolist > form > input {
+        padding: 5px;
+        font-size: 16px;
+    }
+    .todolist > form > button {
+        font-size: 14px;
+        padding: 5px 10px;
+        margin-top: 10px;
+    }
+    .todo {
+        width: 70%;
+    }
+}
